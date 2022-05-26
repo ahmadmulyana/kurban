@@ -3,7 +3,7 @@
 	<section class="profiles">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-2 profilemobile">
 					<img src="<?= base_url("assets/images/profile/");?>man.png" class="w-100">
 				</div>
 				<div class="col-md-10">
