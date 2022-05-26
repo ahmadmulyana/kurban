@@ -1,0 +1,21 @@
+@media (max-width:  768px) {
+	.title-header h1 {
+		font-family: 'Manrope', sans-serif;
+		font-weight: 900;
+		font-size: 28px;
+	}
+	iframe {
+		height: -webkit-fill-available;
+	}
+	.paket .col-md-4.text-center {
+		margin-bottom: 40px;
+	}
+	.w-85 {
+		width: 45%;
+	}
+	.paket p {
+		width: 100%;
+		margin: 10px auto 20px;
+		text-align: center;
+	}
+}
