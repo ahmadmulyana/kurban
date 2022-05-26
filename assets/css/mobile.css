@@ -138,6 +138,9 @@
 	.whychooseus {
 		margin: 50px 0px;
 	}
+	.produk .col-md-4 {
+		margin-bottom: 20px;
+	}
 }
 
 @media (min-width: 767px) {
