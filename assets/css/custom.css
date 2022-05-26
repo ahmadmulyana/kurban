@@ -580,3 +580,7 @@ section.profiles {
 section.profiles table {
   font-size: 14px;
 }
+
+.dalil {
+  margin-top: -1px;
+}
