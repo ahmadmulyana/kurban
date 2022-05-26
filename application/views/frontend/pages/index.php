@@ -11,6 +11,12 @@
 			</div>
 		</div>
 	</section>
+
+	<section>
+		<div>
+			<img src="<?= base_url('assets/images/banner/');?>banner-promo.jpg" class="w-100">
+		</div>
+	</section>
 	
 	<section>
 		<div class="dalil">
