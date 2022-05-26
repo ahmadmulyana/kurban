@@ -7,9 +7,6 @@
 	iframe {
 		height: -webkit-fill-available;
 	}
-	.paket .col-md-4.text-center {
-		margin-bottom: 40px;
-	}
 	.w-85 {
 		width: 45%;
 	}
@@ -17,5 +14,25 @@
 		width: 100%;
 		margin: 10px auto 20px;
 		text-align: center;
+	}
+	.paket .col-md-4.text-center {
+		margin-bottom: 40px;
+		width: 90% !important;
+		margin: 10px auto 10px;
+	}
+	.sustainable .col-md-6 {
+		margin-bottom: 20px;
+	}
+	.sustainable .col-md-6:last-child {
+		margin-bottom: 0px;
+	}
+	.sustainable .card {
+		text-align: center;
+	}
+	.sustainable .col-md-8 {
+		padding-top: 10px;
+	}
+	footer .col-md-3 {
+		margin-top: 20px;
 	}
 }

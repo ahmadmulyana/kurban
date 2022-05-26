@@ -584,3 +584,61 @@ section.profiles table {
 .dalil {
   margin-top: -1px;
 }
+
+ul.navbarmenu a.nav-link {
+  font-size: 14px;
+}
+
+.paket .col-md-4 {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding-bottom: 20px;
+  border-radius: 35px;
+  padding-top: 10px;
+}
+
+.paket img {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.paket .col-md-4 {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding-bottom: 25px;
+  border-radius: 35px;
+  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 32.7%;
+  background: rgb(65,175,150);
+  background: linear-gradient(135deg, rgba(65,175,150,1) 30%, rgba(4,107,165,1) 100%);
+}
+
+.paket .col-md-4:first-child {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding-bottom: 25px;
+  border-radius: 35px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 32.7%;
+  background: rgb(65,175,150);
+  background: linear-gradient(135deg, rgba(65,175,150,1) 30%, rgba(4,107,165,1) 100%);
+}
+
+.paket .col-md-4:last-child {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding-bottom: 25px;
+  border-radius: 35px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 32.7%;
+  background: rgb(65,175,150);
+  background: linear-gradient(135deg, rgba(65,175,150,1) 30%, rgba(4,107,165,1) 100%);
+}
