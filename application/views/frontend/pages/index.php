@@ -134,18 +134,18 @@
 			<div class="row">
 				<div class="col-md-4 text-center">
 					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #212121 !important; margin-top: 15px;">#KURBANdiPelosok</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-primary">View Detail</a>
+					<h2 style="color: #fff !important; margin-top: 15px;">#KURBANdiPelosok</h2>
+					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
 				</div>
 				<div class="col-md-4 text-center">
 					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #212121 !important; margin-top: 15px">#KURBANdiRendang</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-primary">View Detail</a>
+					<h2 style="color: #fff !important; margin-top: 15px">#KURBANdiRendang</h2>
+					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
 				</div>
 				<div class="col-md-4 text-center">
 					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #212121 !important; margin-top: 15px">#KURBANdiKota</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-primary">View Detail</a>
+					<h2 style="color: #fff !important; margin-top: 15px">#KURBANdiKota</h2>
+					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
 				</div>
 			</div>
 		</div>
