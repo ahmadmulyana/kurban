@@ -47,7 +47,7 @@
 		</div>	
 	</section>
 	
-	<section class="whychooseus">
+	<section class="whychooseus forwebsite">
 		<div class="container mt-4 mb-4">
 			<div class="text-center mb-4">
 				<h2>Kenapa Kurban di T.CARE</h2>
@@ -94,6 +94,58 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	
+	<section class="whychooseus formobile">
+		<div class="container mt-4 mb-4">
+			<div class="text-center mb-2">
+				<h2>Kenapa Kurban di T.CARE</h2>
+			</div>
+
+			<div class="scroll">
+				<div class="card shadow animate__animated animate__fadeIn visible" data-animate="fadeIn" data-animate-delay="0">
+					<div class="card-inner">
+						<div class="paragraph truncate">
+							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<h3 class="text text-title">Hewan kurban dipastikan sehat.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow animate__animated animate__fadeIn visible" data-animate="fadeIn" data-animate-delay="0">
+					<div class="card-inner">
+						<div class="paragraph truncate">
+							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<h3 class="text text-title">Pemotongan Kurban sesuai dengan ketentuan syariah Islam.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow animate__animated animate__fadeIn visible" data-animate="fadeIn" data-animate-delay="0">
+					<div class="card-inner">
+						<div class="paragraph truncate">
+							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<h3 class="text text-title">Ikut serta dalam program ketahanan pangan. </h3>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow animate__animated animate__fadeIn visible" data-animate="fadeIn" data-animate-delay="0">
+					<div class="card-inner">
+						<div class="paragraph truncate">
+							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<h3 class="text text-title">Menggunakan packaging yang ramah lingkungan.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="card shadow animate__animated animate__fadeIn visible" data-animate="fadeIn" data-animate-delay="0">
+					<div class="card-inner">
+						<div class="paragraph truncate">
+							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<h3 class="text text-title">Laporan kegiatan yang lengkap.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
