@@ -56,7 +56,7 @@
 				<div class="col">
 					<div class="card shadow no-border">
 						<div class="card-body">
-							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<img src="<?= base_url('assets/images/icon/');?>healthy_animal.png">
 							<h4>Hewan kurban dipastikan sehat.</h4>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 				<div class="col">
 					<div class="card shadow no-border">
 						<div class="card-body">
-							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<img src="<?= base_url('assets/images/icon/');?>machete.png">
 							<h4>Pemotongan Kurban sesuai dengan ketentuan syariah Islam.</h4>
 						</div>
 					</div>
@@ -72,7 +72,7 @@
 				<div class="col">
 					<div class="card shadow no-border">
 						<div class="card-body">
-							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<img src="<?= base_url('assets/images/icon/');?>verified-1.png">
 							<h4>Ikut serta dalam program ketahanan pangan. </h4>
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 				<div class="col">
 					<div class="card shadow no-border">
 						<div class="card-body">
-							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<img src="<?= base_url('assets/images/icon/');?>package.png">
 							<h4>Menggunakan packaging yang ramah lingkungan.</h4>
 						</div>
 					</div>
@@ -88,7 +88,7 @@
 				<div class="col">
 					<div class="card shadow no-border">
 						<div class="card-body">
-							<img src="<?= base_url('assets/images/icon/');?>verified.png">
+							<img src="<?= base_url('assets/images/icon/');?>clipboard.png">
 							<h4>Laporan kegiatan yang lengkap.</h4>
 						</div>
 					</div>
@@ -182,7 +182,7 @@
 	<section class="paket" id="paket">
 		<div class="container">
 			<h1>Pilih Kurban-mu!</h1>
-			<p>This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
+			<p>“Qurban itu lebih afdhal dari sedekah yang senilai dengan qurban”</p>
 			<div class="row">
 				<div class="col-md-4 text-center">
 					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
