@@ -402,6 +402,16 @@ body.profile {
   background: #046ba5;
 }
 
+body.checkout {
+  background: #046ba5;
+}
+
+main.checkouts {
+  margin-top: 70px;
+  background: #fff;
+  padding: 40px 0px;
+}
+
 .float{
   position:fixed;
   width:60px;
@@ -641,4 +651,57 @@ ul.navbarmenu a.nav-link {
   width: 32.7%;
   background: rgb(65,175,150);
   background: linear-gradient(135deg, rgba(65,175,150,1) 30%, rgba(4,107,165,1) 100%);
+}
+
+.checkout-top h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.checkout-top {
+  margin-bottom: 40px;
+}
+
+.checkout-top .container {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.checkout-top tr {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.qty span {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.qty input {
+  display: inline-block;
+  width: 30%;
+  height: 25px;
+  vertical-align: sub;
+  padding: 0px 0px 0px 10px;
+}
+
+.uksiz {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+p.updatecart input {
+  background: #0d6efd;
+  border: 1px solid #0d6efd;
+  color: #fff;
+  padding: 10px;
+  border-radius: 35px;
 }

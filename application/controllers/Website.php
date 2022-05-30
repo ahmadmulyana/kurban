@@ -22,23 +22,33 @@ class Website extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('frontend/template/header');
-		$this->load->view('frontend/pages/index');
+		$data['getkategoris'] = $this->wmodels->getKategorihome();
+		$this->load->view('frontend/pages/index', $data);
 		$this->load->view('frontend/template/footer');
 	}
 
-	public function detail()
+	public function detail($kategori)
 	{
 		$this->load->view('frontend/template/header');
-		$this->load->view('frontend/pages/detail');
+		$data['getkategori'] = $this->wmodels->getKategori(" WHERE kategori = '$kategori'");
+		$data['getproduk'] = $this->wmodels->getProduk(" WHERE kategori = '$kategori'");
+		$this->load->view('frontend/pages/detail', $data);
 		$this->load->view('frontend/template/footer');
 	}
 
-	public function profile()
+	public function checkout()
 	{
 		$this->load->view('frontend/template/header');
-		$this->load->view('frontend/pages/profile');
+		$this->load->view('frontend/pages/checkout');
 		$this->load->view('frontend/template/footer');
 	}
+
+	// public function profile()
+	// {
+	// 	$this->load->view('frontend/template/header');
+	// 	$this->load->view('frontend/pages/profile');
+	// 	$this->load->view('frontend/template/footer');
+	// }
 
 	public function login()
 	{
