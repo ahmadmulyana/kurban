@@ -18,14 +18,14 @@
 		<link href="<?= base_url('assets/');?>css/mobile.css" rel="stylesheet">
 
 		<!-- Favicons -->
-		<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+		<!-- <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
 		<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
 		<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
 		<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
 		<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
 		<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
 		<meta name="theme-color" content="#712cf9">
-
+ -->
 		<!-- Fontawesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		
@@ -62,9 +62,15 @@
 							<li>
 								<a class="nav-link" href="https://tcare.id/" target="_blank">T.CARE</a>
 							</li>
-							<li>
-								<a class="nav-link navlogin" href="<?= site_url('website/login');?>">Login</a>
-							</li>
+							<?php if( isset($_SESSION['nama_klien']) && !empty($_SESSION['nama_klien']) ) { ?>
+								<li><a href="<?php echo base_url("profile/detail"); ?>" class="nav-link">Assalamu'alaikum, <?php echo $this->session->userdata('nama_klien');?></a></li>
+								<li><a href="<?php echo base_url("action/logout"); ?>" class="btn btn-outline-light">Logout</a></li>
+							<?php } else { ?>
+								<li>
+									<a class="nav-link navlogin" href="<?= site_url('website/login');?>">Login</a>
+								</li>
+							<?php } ?>
+							
 						</ul>
 					</form>
 				</div>

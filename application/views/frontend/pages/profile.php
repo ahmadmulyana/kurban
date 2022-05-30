@@ -10,45 +10,28 @@
 					<h2>Detail Profile</h2>
 					<div class="row produk">
 						<div class="col-md-12">
-							<form class="row g-3">
+							<form class="row g-3" method="POST" action="<?php echo base_url("profile/update_profile");?>" enctype="multipart/form-data">
+								<?php foreach($getProfile as $row) { ?>
 								<div class="col-md-6">
-									<label for="nama" class="form-label">Nama Lengkap</label>
-									<input type="text" class="form-control" id="nama">
+									<label for="nama_klien" class="form-label">Nama Lengkap</label>
+									<input type="text" class="form-control" id="nama_klien" name="nama_klien" value="<?= $row->nama_klien ;?>">
 								</div>
 								<div class="col-md-6">
-									<label for="nomor" class="form-label">Nomor Telepon</label>
-									<input type="nomor" class="form-control" id="nomor">
+									<label for="no_telp" class="form-label">Nomor Telepon</label>
+									<input type="text" class="form-control" id="no_telp" name="no_telp" value="<?= $row->no_telp ;?>">
 								</div>
 								<div class="col-md-6">
-									<label for="inputEmail4" class="form-label">Email</label>
-									<input type="email" class="form-control" id="inputEmail4">
+									<label for="email" class="form-label">Email</label>
+									<input type="email" class="form-control" id="email" name="email" value="<?= $row->email ;?>">
 								</div>
-								<div class="col-md-6">
-									<label for="inputPassword4" class="form-label">Password</label>
-									<input type="password" class="form-control" id="inputPassword4">
+								<div class="col-6">
+									<label for="alamat" class="form-label">Alamat</label>
+									<textarea class="form-control" id="alamat" name="alamat"><?= $row->alamat ;?></textarea>
 								</div>
 								<div class="col-12">
-									<label for="inputAddress" class="form-label">Address</label>
-									<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+									<button type="submit" class="btn btn-primary">Update</button>
 								</div>
-								<div class="col-md-6">
-									<label for="inputCity" class="form-label">City</label>
-									<input type="text" class="form-control" id="inputCity">
-								</div>
-								<div class="col-md-4">
-									<label for="inputState" class="form-label">State</label>
-									<select id="inputState" class="form-select">
-										<option selected>Choose...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="col-md-2">
-									<label for="inputZip" class="form-label">Zip</label>
-									<input type="text" class="form-control" id="inputZip">
-								</div>
-								<div class="col-12">
-									<button type="submit" class="btn btn-primary">Simpan</button>
-								</div>
+								<?php } ?>
 							</form>
 						</div>
 					</div>

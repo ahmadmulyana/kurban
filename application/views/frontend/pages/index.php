@@ -184,21 +184,13 @@
 			<h1>Pilih Kurban-mu!</h1>
 			<p>“Qurban itu lebih afdhal dari sedekah yang senilai dengan qurban”</p>
 			<div class="row">
+				<?php foreach($getkategoris as $row) {?>
 				<div class="col-md-4 text-center">
-					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #fff !important; margin-top: 15px;">#KURBANdiPelosok</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
+					<a href="<?= site_url('website/detail/' . $row->kategori);?>"><img src="<?= base_url('assets/images/background/' . $row->gambar);?>" class="w-100" ></a>
+					<h2 style="color: #fff !important; margin-top: 15px;"><?= $row->kategori;?></h2>
+					<a href="<?= site_url('website/detail/' . $row->kategori);?>" class="btn btn-outline-light">View Detail</a>
 				</div>
-				<div class="col-md-4 text-center">
-					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #fff !important; margin-top: 15px">#KURBANdiRendang</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
-				</div>
-				<div class="col-md-4 text-center">
-					<a href="<?= site_url('website/detail');?>"><img src="<?= base_url('assets/images/background/');?>kat-yukawa-K0E6E0a0R3A-unsplash-700x990.jpg" class="w-100" ></a>
-					<h2 style="color: #fff !important; margin-top: 15px">#KURBANdiKota</h2>
-					<a href="<?= site_url('website/detail');?>" class="btn btn-outline-light">View Detail</a>
-				</div>
+				<?php } ?>
 			</div>
 		</div>
 	</section>
